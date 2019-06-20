@@ -44,6 +44,8 @@ h2, h3 {
   top: 0;
   left: 0;
   height: 8rem;
+  box-sizing: border-box;
+    border-bottom: 0.10rem solid #252769;
 }
 .topbar > img {
   position: relative;
@@ -227,10 +229,7 @@ h2, h3 {
   }
 }
 @media only screen and (max-width: 1100px) {
-  .customiser {
-    top: calc(7rem + 10px);
 
-  }
   .customiser .customDoor, .customDoor > img {
     margin: 0;
   }
@@ -247,9 +246,7 @@ h2, h3 {
   }
 }
 @media only screen and (max-width: 1100px) and (orientation: landscape) {
-  .customiser {
-    height: 100vh;
-  }
+
   .colourName {
     top: calc(50% - 11rem);
   }
@@ -283,9 +280,7 @@ h2, h3 {
 }
 @media only screen and (max-width: 1100px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
 
-  .customiser {
-    height: 80vh;
-  }
+
   .colourBox .colour {
     width: 30vw;
   }

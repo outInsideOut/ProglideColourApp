@@ -258,7 +258,7 @@ h2, h3 {
     left: calc(50% - 280px);
   }
   .colourName {
-    top: calc(50% - 12rem);
+    top: calc(50% - 10rem);
   }
 
 }

@@ -221,7 +221,7 @@ h2, h3 {
 }
 @media only screen and (orientation: landscape) {
   .colourName {
-    top: calc(50% - 13rem);
+    top: calc(50% - 14rem);
 }
 @media only screen and (max-width: 1200px) and (orientation: landscape){
   html {

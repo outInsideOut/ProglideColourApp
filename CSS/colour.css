@@ -246,9 +246,19 @@ h2, h3 {
   }
 }
 @media only screen and (max-width: 1100px) and (orientation: landscape) {
+  .customiser .customDoor, .customDoor > img {
+    width: 530px;
+    border-radius: 1rem;
+    border: 2px solid black;
+  }
 
+  .customDoor {
+    position: relative;
+    top: calc(50% - 195px );
+    left: calc(50% - 280px);
+  }
   .colourName {
-    top: calc(50% - 11rem);
+    top: calc(50% - 12rem);
   }
 
 }
@@ -267,6 +277,12 @@ h2, h3 {
 
 }
 @media only screen and (max-width: 850px) and (orientation: landscape) {
+  .section1 {
+    height: calc(8rem + 100vh);
+  }
+  .customiser {
+    height: 100vh;
+  }
   .customiser .customDoor, .customDoor > img {
     width: 460px;
   }
@@ -278,7 +294,30 @@ h2, h3 {
     top: 2rem;
   } */
 }
-@media only screen and (max-width: 1100px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
+@media only screen and (max-width: 600px) {
+  .customiser .customDoor, .customDoor > img {
+    width: 340px;
+  }
+  .customDoor {
+      left: calc(50% - 170px);
+      top: calc(50% - 142px);
+  }
+  .colourName {
+    top: calc(50% - 8rem);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .customDoor {
+    top: 3rem;
+  }
+  .content p {
+    font-size: 0.5rem;
+  }
+  .colourName {
+    top: 4rem;
+  }
+}
+@media only screen and (max-width: 1100px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:portrait) {
 
 
   .colourBox .colour {
